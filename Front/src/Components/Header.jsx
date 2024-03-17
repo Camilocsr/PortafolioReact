@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp, faFacebook, faInstagram,  faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Header = ()=>{
     return (
@@ -38,16 +40,16 @@ const Header = ()=>{
               </ul>
               <div className="contenedor-redes-menu">
                 <div className="btn-redes">
-                  <a className="posicion-iconosredes hoversas" href="https://www.facebook.com/camilosolanorodriguez"><i className="fa-brands fa-facebook"></i></a>
+                  <a className="posicion-iconosredes hoversas" href="https://www.facebook.com/camilosolanorodriguez"><FontAwesomeIcon className="fa-brands" icon={faFacebook} /></a>
                 </div>
                 <div className="btn-redes">
-                  <a className="posicion-iconosredes hoversas" href="https://www.instagram.com/camilosolanoro/"><i className="fa-brands fa-instagram"></i></a>
+                  <a className="posicion-iconosredes hoversas" href="https://www.instagram.com/camilosolanoro/"><FontAwesomeIcon className="fa-brands" icon={faInstagram} /></a>
                 </div>
                 <div className="btn-redes">
-                  <a className="posicion-iconosredes hoversas" href="https://github.com/Camilocsr"><i className="fa-brands fa-github"></i></a>
+                  <a className="posicion-iconosredes hoversas" href="https://github.com/Camilocsr"><FontAwesomeIcon className="fa-brands" icon={faGithub} /></a>
                 </div>
                 <div className="btn-redes">
-                  <a className="posicion-iconosredes hoversas wow animate__animated animate__swing" href="https://api.whatsapp.com/send?phone=573117022824&text=Buenos%20dias%20o%20buenas%20tardes%2C%20le%20hablo%20por%20el%20motivo%20de%3A"><i className="fa-brands fa-whatsapp"></i></a>
+                  <a className="posicion-iconosredes hoversas wow animate__animated animate__swing" href="https://api.whatsapp.com/send?phone=573117022824&text=Buenos%20dias%20o%20buenas%20tardes%2C%20le%20hablo%20por%20el%20motivo%20de%3A"><FontAwesomeIcon className="fa-brands" icon={faWhatsapp} /></a>
                 </div>
               </div>
             </div>

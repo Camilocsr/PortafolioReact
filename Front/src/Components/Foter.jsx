@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="contenedor-pie-de-pagina col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
           <img className="animate__animated wow animate__heartBeat animate-delay-2s" src={LogoCamilo} alt="logo de la pagina, camilo solano rodriguez" width="100" />
           <p>Este portafolio fue creado con las siguientes tecnologias:
-            React, javaScript, Node.js, Boostrap, Font Awesome, Sass, Wow.js.
+            React, Vite, javaScript, Node.js, Boostrap, Font Awesome, Sass, Wow.js.
           </p>
         </div>
         <div className="contenedor-pie-de-pagina col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
