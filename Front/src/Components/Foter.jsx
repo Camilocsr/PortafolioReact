@@ -9,18 +9,25 @@ const Footer = () => {
       <div className="row">
         <div className="contenedor-pie-de-pagina col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
           <img className="animate__animated wow animate__heartBeat animate-delay-2s" src={LogoCamilo} alt="logo de la pagina, camilo solano rodriguez" width="100" />
-          <p>Este portafolio web fue creado utilizando elementos de boostrap-5, wow.js, animate.css, y componentes de (codigo web), (AlexCG Design), (Carlos Di Giacomo).</p>
+          <p>Este portafolio fue creado con las siguientes tecnologias:
+            React, javaScript, Node.js, Boostrap, Font Awesome, Sass, Wow.js.
+          </p>
         </div>
         <div className="contenedor-pie-de-pagina col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
           <h3 className="ziz wow animate__animated animate__wobble animate__delay-1s">Información <br />de contacto</h3>
-          <p className="wow animate__animated animate__jello animate__delay-1s">whatsapp: <span className="white-contacto">+57 311 702 2824</span><br />
+          <p className="wow animate__animated animate__jello animate__delay-1s">whatsapp: <span className="white-contacto">+57 313 636 8783</span><br />
             Celular: <span className="white-contacto">+57 313 636 8783</span><br />
             Correo: <span className="white-contacto">esmunred@gmail.com</span></p>
         </div>
         <div className="contenedor-pie-de-pagina wow animate__animated animate__bounceInUp animate-delay-4s col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
           <h3>Redes sociales</h3>
-          <p>Me puedes encontrar en todas las redes sociales como @camilosolanorodriguez o dandole directamente click a los iconos.</p>
-          <a href="https://api.whatsapp.com/send?phone=573117022824&text=Buenos%20dias%20o%20buenas%20tardes%2C%20le%20hablo%20por%20el%20motivo%20de%3A"><FontAwesomeIcon className="fa-brands" icon={faWhatsapp} /></a>
+          <p>Me puedes encontrar en redes sociales como:<br/>
+            Meta/Facebook: <span className="white-contacto">Camilo Solno Rodriguez</span><br/>
+            Instagram/Threads: <span className="white-contacto">@camilosolanoro</span><br/>
+            GitHub: <span className="white-contacto">Camilocsr</span><br/><br/>
+            Puedes seleccionar en el icono de red social que prefieras.
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=573136368783&text=Buenos%20dias%20o%20buenas%20tardes%2C%20le%20hablo%20por%20el%20motivo%20de%3A"><FontAwesomeIcon className="fa-brands" icon={faWhatsapp} /></a>
           <a href="https://www.facebook.com/camilosolanorodriguez"><FontAwesomeIcon className="fa-brands" icon={faFacebook} /></a>
           <a href="https://www.facebook.com/messages/t/100023768829242"><FontAwesomeIcon className="fa-brands" icon={faFacebookMessenger} /></a>
           <a href="https://github.com/Camilocsr"><FontAwesomeIcon className="fa-brands" icon={faGithub} /></a>
