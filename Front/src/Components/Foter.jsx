@@ -1,13 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faFacebook, faFacebookMessenger, faGithub } from '@fortawesome/free-brands-svg-icons';
+import LogoCamilo from "../images/csr-foo.png"
 
 const Footer = () => {
   return (
     <footer className="container-fluid color-pie-pagina">
       <div className="row">
         <div className="contenedor-pie-de-pagina col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-          <img className="animate__animated wow animate__heartBeat animate-delay-2s" src="images/csr-foo.png" alt="logo de la pagina, camilo solano rodriguez" width="100" />
+          <img className="animate__animated wow animate__heartBeat animate-delay-2s" src={LogoCamilo} alt="logo de la pagina, camilo solano rodriguez" width="100" />
           <p>Este portafolio web fue creado utilizando elementos de boostrap-5, wow.js, animate.css, y componentes de (codigo web), (AlexCG Design), (Carlos Di Giacomo).</p>
         </div>
         <div className="contenedor-pie-de-pagina col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
