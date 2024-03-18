@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contacto = () => {
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     const nombre = document.getElementById('name');
@@ -31,12 +31,18 @@ const Contacto = () => {
       texto += `El asunto debe tener al menos 10 caracteres. <br>`;
       entrar = true;
     } else {
-      texto += "¡Muchas gracias por comunicarte conmigo!";
+      // Si todo está bien, enviar el formulario
       entrar = true;
     }
 
     if (entrar) {
+      // Aquí puedes realizar cualquier acción adicional si lo necesitas
       parrafo.innerHTML = texto;
+      
+      if (texto === "") {
+        // Si no hay errores, enviar el formulario
+        event.target.submit();
+      }
     }
   };
 
@@ -49,31 +55,31 @@ const Contacto = () => {
           </div>
         </div>
         <div className="contenedor-formulario col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-          <form className="wow animate__animated animate-delay-2s animate__rotateOut" onSubmit={handleSubmit} id="form">
+          <form className="wow animate__animated animate-delay-2s animate__rotateOut" onSubmit={handleSubmit} id="form" action="https://formsubmit.co/esmunred@gmail.com" method="POST">
             <div className="form">
               <h1 className="titulo-contacto">Contactar.</h1>
               <div className="grupo">
-                <input type="text" name="" id="name" /><span className="barra"></span>
+                <input type="text" name="name" id="name" /><span className="barra"></span>
                 <label className="">Nombre</label>
               </div>
 
               <div className="grupo">
-                <input type="email" name="" id="email" /><span className="barra"></span>
+                <input type="email" name="email" id="email" /><span className="barra"></span>
                 <label>Email</label>
               </div>
 
               <div className="grupo">
-                <input type="number" name="" id="number-contac" /><span className="barra"></span>
+                <input type="number" name="number" id="number-contac" /><span className="barra"></span>
                 <label>Número</label>
               </div>
 
               <div className="grupo">
-                <input type="number" name="" id="whatsapp" /><span className="barra"></span>
+                <input type="number" name="whatsapp" id="whatsapp" /><span className="barra"></span>
                 <label>WhatsApp</label>
               </div>
 
               <div className="grupo">
-                <textarea type="text" name="" placeholder="Te escribo por el motivo de..." id="asunto" rows="4"></textarea><span className="barra"></span>
+                <textarea type="text" name="asunto" placeholder="Te escribo por el motivo de..." id="asunto" rows="4"></textarea><span className="barra"></span>
                 <label>Asunto</label>
               </div>
               <button className="btn-contacto" type="submit">Contactar</button>
