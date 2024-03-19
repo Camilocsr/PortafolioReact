@@ -1,5 +1,7 @@
 import React from "react";
 import VisualFoto from "../images/vscode.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5, faCss3, faJs, faReact, faUnity, faNodeJs, faPhp, faJava, faSass, faGithub, faBootstrap } from '@fortawesome/free-brands-svg-icons';
 
 const Conocimientos = () => {
     return (
@@ -7,7 +9,7 @@ const Conocimientos = () => {
             <h1 className="habilidadesh1">Conocimientos</h1>
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands famm fa-html5"></i>Html</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faHtml5} />Html</span></p>
                     <span className="numero">90%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -17,7 +19,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands famm fa-css3"></i>Css</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faCss3} />Css</span></p>
                     <span className="numero">90%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -27,7 +29,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands famm fa-js"></i>JavaScript</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faJs} />JavaScript</span></p>
                     <span className="numero">75%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -37,7 +39,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands fa-unity"></i> Unity</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faUnity} /> Unity</span></p>
                     <span className="numero">81%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -47,7 +49,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands fa-node-js"></i> Node.js</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faNodeJs} /> Node.js</span></p>
                     <span className="numero">90%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -57,7 +59,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands fa-react"></i> React</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faReact} /> React</span></p>
                     <span className="numero">58%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -67,7 +69,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands fa-php"></i> Php</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faPhp} /> Php</span></p>
                     <span className="numero">15%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -77,7 +79,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands fa-java"></i> Java</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faJava} /> Java</span></p>
                     <span className="numero">50%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -87,7 +89,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands famm fa-sass"></i>SASS</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faSass} />SASS</span></p>
                     <span className="numero">55%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -107,7 +109,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands famm fa-github"></i>Git</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faGithub} />Git</span></p>
                     <span className="numero">85%</span>
                 </div>
                 <div className="barra-porsentaje">
@@ -117,7 +119,7 @@ const Conocimientos = () => {
 
             <div className="inf">
                 <div className="informacion">
-                    <p><span className="listado"><i className="fa-brands famm fa-bootstrap"></i>Bootstrap</span></p>
+                    <p><span className="listado"><FontAwesomeIcon className="fa-brands famm" icon={faBootstrap} />Bootstrap</span></p>
                     <span className="numero">92%</span>
                 </div>
                 <div className="barra-porsentaje">

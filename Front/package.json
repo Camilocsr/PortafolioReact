@@ -1,11 +1,11 @@
 {
   "name": "front",
   "private": true,
-  "homepage": "https://camilocsr.com/PortafolioReact/",
+  "homepage": "https://camilosolanorodriguez.com/PortafolioReact/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build && echo camilocsr.com > ./dist/CNAME",
+    "predeploy": "npm run build && echo camilosolanorodriguez.com > ./dist/CNAME",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",

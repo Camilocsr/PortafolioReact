@@ -1,10 +1,5 @@
 import React from 'react';
 import { useState, useEffect } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "./css/style.css"
-import "./css/flexbox.css"
-import "./css/estilo.css"
-import 'animate.css/animate.css';
 import WOW from 'wow.js';
 import Header from './Components/Header';
 import Presentacion from './Components/Presentacion';
